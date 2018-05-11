@@ -1,0 +1,55 @@
+/* --- Settings
+------------------------- */
+
+:root {
+  --blue-shade:        #1F73AD;
+  --box-shadow:        0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  --transition-button: .3s all;
+}
+
+/* --- Buttons
+------------------------- */
+
+.btn {
+  box-shadow: var(--box-shadow);
+  margin-bottom: 14px;
+  transition: var(--transition-button);
+}
+
+.btn-disabled {
+  color: #fff !important;
+}
+
+.btn-info:hover {
+  background-color: var(--blue-shade);
+  border-color: var(--blue-shade);
+}
+
+/* --- Navbar
+------------------------- */
+
+.navbar {
+  box-shadow: var(--box-shadow);
+}
+
+/* --- Main Container
+------------------------- */
+
+.main-container {
+  padding-bottom: 50px;
+}
+
+.custom-file-input:hover {
+  cursor: pointer;
+}
+
+.btn-filters {
+  width: 100px !important;
+}
+
+#canvas {
+  border-radius: 2px;
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
